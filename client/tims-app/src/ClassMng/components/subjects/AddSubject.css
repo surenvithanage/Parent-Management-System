@@ -1,0 +1,79 @@
+.add-subject-popup {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-subject-form {
+  width: 300px;
+  height: 200px;
+  z-index: 99999;
+}
+
+.add-subject-backdrop {
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /* background: url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwipkN6TrJHkAhXMtI8KHRJuAw8QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fwhite%2520background%2F&psig=AOvVaw1Tycx9W635bgnUMvDi2t4W&ust=1566386687041548); */
+}
+
+.popup-card {
+  position: relative;
+  overflow: visible !important;
+}
+
+.popup-cancel-btn {
+  position: absolute !important;
+  top: 10px;
+  right: 10px;
+  color: #03a9f4 !important;
+}
+
+.popup-create-btn {
+  position: absolute !important;
+  bottom: 3px;
+  right: 10px;
+  color: #03a9f4 !important;
+}
+
+.popup-create-btn:disabled {
+  color: #aaaaaa !important;
+}
+
+.add-subject-popup .input-wrap {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.add-subject-popup .MuiFormControl-root {
+  width: 100%;
+}
+
+.add-subject-popup .MuiCardContent-root {
+  padding-top: 0px !important;
+}
+
+.subject-color-item {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.MuiIconButton-root {
+  color: #03a9f4 !important;
+  padding: 5px 5px !important;
+}
+
+.subject-cards {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

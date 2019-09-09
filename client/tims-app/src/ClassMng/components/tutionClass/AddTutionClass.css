@@ -1,0 +1,104 @@
+.add-tution-class-popup {
+  position: fixed;
+  top: -70px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+
+.add-tution-class-form {
+  width: 50%;
+  height: 70%;
+  z-index: 99999;
+}
+
+.add-tution-class-backdrop {
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /* background: url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwipkN6TrJHkAhXMtI8KHRJuAw8QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fwhite%2520background%2F&psig=AOvVaw1Tycx9W635bgnUMvDi2t4W&ust=1566386687041548); */
+}
+
+.popup-card {
+  position: relative;
+  overflow: visible !important;
+}
+
+.popup-cancel-btn {
+  position: absolute !important;
+  top: 10px;
+  right: 10px;
+  color: #03a9f4 !important;
+}
+
+.popup-create-btn {
+  position: absolute !important;
+  bottom: 3px;
+  right: 10px;
+  color: #03a9f4 !important;
+}
+
+.add-tution-class-popup .input-wrap {
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.add-tution-class-popup .MuiFormControl-root {
+  min-width: 35% !important;
+  margin-bottom: 20px;
+}
+
+.MuiFormControl-marginNormal {
+  margin-top: 0px !important;
+}
+
+.MuiPickersModal-dialogRoot .MuiButtonBase-root {
+  color: #000 !important;
+}
+
+.date-time-wrap .MuiGrid-justify-xs-space-around {
+  justify-content: flex-end;
+}
+
+.MuiCardHeader-root .MuiAvatar-root {
+  position: inherit !important;
+}
+
+.subject-wrap .subject-input {
+  min-width: 226px !important;
+}
+
+.grade-wrap .grade-input {
+  min-width: 226px !important;
+}
+
+.selected-grade {
+  margin: 5px;
+}
+
+.input-wrap .col-1,
+.input-wrap .col-2 {
+  min-width: 50%;
+  max-width: 50%;
+  padding: 10px;
+  height: 100%;
+}
+
+.col-1 > div {
+  width: 100%;
+}
+
+.input-wrap .input {
+  width: 100%;
+}

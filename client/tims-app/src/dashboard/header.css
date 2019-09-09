@@ -1,0 +1,78 @@
+.header-profile {
+  position: relative;
+  z-index: 99999;
+}
+
+.header-profile .user-wrap {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-profile .user-image {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  margin: 0px 10px;
+}
+
+.header-profile .user-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-profile .user-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 8px #bbb;
+  padding: 5px;
+}
+
+.header-profile .user-wrap:hover {
+  background-color: #33439c;
+  cursor: pointer;
+}
+
+.header-profile .menu-opened {
+  display: block;
+  left: 62px;
+  /* padding: 5px 10px; */
+}
+
+.header-profile .user-menu a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-profile .menu-item {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.header-wrap .logo-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrap h5 {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.home-icon-wrap,
+.header-profile {
+  /* now type maluu :) okey yalu :) */
+  display: flex;
+  align-items: center;
+}
+
+.home-icon-wrap .MuiSvgIcon-root {
+  width: 2em;
+}

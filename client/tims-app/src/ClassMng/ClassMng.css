@@ -1,0 +1,34 @@
+.class-dashboard-shortcut .MuiCardHeader-title {
+  font-weight: bold !important;
+}
+
+.class-dashboard-shortcut .MuiCardHeader-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-dashboard-shortcut .MuiCardHeader-subheader {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.shortcut-wrap {
+  padding: 20px;
+}
+
+.class-dashboard-shortcut {
+  width: 20%;
+}
+
+.shortcut-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-dashboard-shortcut:hover {
+  cursor: pointer;
+}
+
+.MuiIconButton-root {
+  color: aqua;
+}
