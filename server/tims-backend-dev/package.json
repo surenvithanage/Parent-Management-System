@@ -19,7 +19,7 @@
     "@types/jsonwebtoken": "^8.3.0",
     "@types/node": "^10.14.16",
     "app-root-path": "^2.1.0",
-    "bcrypt": "^3.0.3",
+    "bcrypt": "^5.0.0",
     "compression": "^1.7.3",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
